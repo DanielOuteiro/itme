@@ -2,17 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PPNeueMontreal-Bold */
+@font-face {
+  font-family: 'PPNeueMontreal-Bold';
+  src: url('/fonts/PPNeueMontreal-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* PPNeueMontreal-Book */
+@font-face {
+  font-family: 'PPNeueMontreal-Book';
+  src: url('/fonts/PPNeueMontreal-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* PPNeueMontreal-Italic */
+@font-face {
+  font-family: 'PPNeueMontreal-Italic';
+  src: url('/fonts/PPNeueMontreal-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* PPNeueMontreal-Medium */
+@font-face {
+  font-family: 'PPNeueMontreal-Medium';
+  src: url('/fonts/PPNeueMontreal-Medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+/* PPNeueMontreal-SemiBoldItalic */
+@font-face {
+  font-family: 'PPNeueMontreal-SemiBoldItalic';
+  src: url('/fonts/PPNeueMontreal-SemiBoldItalic.otf') format('opentype');
+  font-weight: semibold;
+  font-style: italic;
+}
+
+/* PPNeueMontreal-Thin */
+@font-face {
+  font-family: 'PPNeueMontreal-Thin';
+  src: url('/fonts/PPNeueMontreal-Thin.otf') format('opentype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: #C3FDBF;
+  --background-start-rgb: #C3FDBF;
+  --background-end-rgb: #C3FDBF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: #C3FDBF;
+    --background-start-rgb: #C3FDBF;
+    --background-end-rgb: #C3FDBF;
   }
 }
 
