@@ -148,15 +148,15 @@ export default function Home() {
         <div className="flex min-h-screen items-center justify-center">
           <div className="flex-1 bg-transparent">
             <p className="font-pp-book text-7xl max-w-4xl">
-              Transforming Tech Recruitment, One Connection at a Time!
+              Transforming Tech Recruitment One Connection at a Time!
             </p>
             <p className="font-pp-medium text-xl max-w-4xl text-regal-green pt-20">
-              ITme is not just a platform; it's a movement.
+              ITme is not just a platform, it is a movement.
             </p>
             <p className="font-pp-book text-xl max-w-2xl text-regal-green pt-4">
               With over <span className="font-pp-medium">6000</span> Tech
-              professionals across <span className="font-pp-medium">200+</span>{" "}
-              countries, we're rewriting the rules. As a Tech professional,
+              professionals across <span className="font-pp-medium">200+</span>
+              countries, we are rewriting the rules. As a Tech professional,
               unlock your true potential, contribute to impactful projects, and
               be part of a community that thrives on innovation, collaboration,
               and continuous learning.
@@ -203,7 +203,7 @@ export default function Home() {
                   title="⚖️ Ecosystem, Not Parasitism"
                 >
                   <p className="font-pp-book text-xl pb-2">
-                    Our platform fees don't disappear into the corporate void.
+                    Our platform fees do not disappear into the corporate void.
                     They fund community projects chosen by the community through
                     a democratic vote, creating a self-sustaining cycle of
                     growth.
@@ -215,7 +215,7 @@ export default function Home() {
                   title="🌐 Global Community Power"
                 >
                   <p className="font-pp-book text-xl pb-2">
-                    ITme isn't just a platform; it's a global community hub. We
+                    ITme is not just a platform, it is a global community hub. We
                     break the chains of talent scarcity by attracting both
                     active job seekers and employed tech professionals,
                     fostering collaboration on a scale never seen before.
@@ -245,7 +245,7 @@ export default function Home() {
               Every Company
             </p>
             <p className="font-pp-book text-xl max-w-2xl text-regal-green pt-4">
-              In the realm of tech recruitment, we understand that there's more
+              In the realm of tech recruitment, we understand that there is more
               to you than a profile picture and a company is far beyond a mere
               position. At ITme, we redefine the recruitment experience,
               acknowledging the unique narratives that make professionals and
@@ -281,7 +281,7 @@ export default function Home() {
             </Table>
           </div>
           <div className="flex-1 bg-transparen ml-32">
-            <p className="font-pp-book text-4xl">So, what's the difference? </p>
+            <p className="font-pp-book text-4xl">So, what is the difference? </p>
             <Tabs aria-label="Options" className="pt-12">
               <Tab
                 key="photos"
